@@ -43,8 +43,8 @@ server <- function(input, output) {
         plot(x=x_column, y=y_column, xlab = X_Label, ylab = Y_Label,
              cex.axis = 1.5, cex.lab = 1.5, pch = 20, cex = 2,
              main = paste(Y_Label, " vs ", X_Label,
-                          "\n r =", round(correlation,3), "
-                          Y' =", round(intercept,3), "+", round(slope,3), "X"),
+                          "\n r =", round(correlation,3), 
+                          "Y' =", round(intercept,3), "+", round(slope,3), "X"),
              cex.main = 1.8)
         abline(intercept,slope)
     })
